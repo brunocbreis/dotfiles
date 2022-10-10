@@ -21,5 +21,6 @@ brew install ffmpeg
 brew install srt
 
 # casks
+brew install --no-quarantine raycast
 brew install visual-studio-code
 brew install 4k-video-downloader
