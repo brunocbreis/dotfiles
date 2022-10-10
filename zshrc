@@ -63,9 +63,11 @@ function mkcd() {
 }
 
 gt() {
-	local dest=$(ls | gum choose) && cd $dest
+	local dest=$(ls | gum choose)
+	[ ! -z $dest ] && cd $dest
 }
 
 gtf() {
-	local dest="$(ls . | gum filter)" && cd $dest
+	local dest="$(ls . | gum filter)"
+	[ ! -z $dest ] && cd $dest
 }
