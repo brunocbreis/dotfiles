@@ -19,7 +19,7 @@ export FU_MACROS="/Users/brunoreis/Library/Application Support/Blackmagic Design
 # ALIASES =============
 # Super list
 alias lsf='ls -lAFh'
-alias exa='exa -laFd --header'
+alias exa='exa -laF --header'
 
 # General navigation
 alias pgm="cd '$PGM'"
@@ -52,7 +52,8 @@ alias fuscript="/Applications/Blackmagic\ Fusion\ 18/Fusion.app/Contents/MacOS/f
 
 # Customize prompts
 PROMPT='
-%B%F{75}%n%f%b@%m: %1~ %# '
+%B%F{75}%n%f%b at %F{25}%m%f in %F{35}%1~%f:
+%# '
 
 # Add locations to $PATH
 
