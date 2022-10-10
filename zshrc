@@ -1,9 +1,9 @@
 source ~/.bash_profile
 
-echo "Hello again from .zshrc"
-
 
 # Set variables
+# Colorize man pages with bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change zsh options
 
@@ -12,9 +12,9 @@ alias lsf='ls -lAFh'
 
 # Customize prompts
 PROMPT='
-%1~ %L %# '
+%B%F{75}%n%f%b@%m: %1~ %# '
 
-RPROMPT='%*'
+
 
 # Add locations to $PATH
 
