@@ -21,6 +21,8 @@ export FU_MACROS="/Users/brunoreis/Library/Application Support/Blackmagic Design
 # alias lsf='ls -lAFh'
 alias ls='exa -laF --header'
 
+alias bbd='brew bundle dump -fv --describe'
+
 # General navigation
 alias pgm="cd '$PGM'"
 
