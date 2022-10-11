@@ -62,12 +62,12 @@ function mkcd() {
 	mkdir -p "$@" && cd "$_"
 }
 
-gt() {
+function gt() {
 	local dest=$(ls | gum choose)
 	[ ! -z $dest ] && cd $dest
 }
 
-gtf() {
+function gtf() {
 	local dest="$(ls . | gum filter)"
 	[ ! -z $dest ] && cd $dest
 }
