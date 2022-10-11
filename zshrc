@@ -8,11 +8,11 @@ export ENTREGAS="$GDRIVE/__entregas"
 
 export CALODRIVE="$GDRIVE/__calô"
 
-export PGM="/Users/brunoreis/Documents/Programacao"
+export PGM="$HOME/Documents/Programacao"
 
-export DV_MACROS="/Users/brunoreis/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Macros"
+export DV_MACROS="$HOME/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Macros"
 
-export FU_MACROS="/Users/brunoreis/Library/Application Support/Blackmagic Design/Fusion/Macros"
+export FU_MACROS="$HOME/Library/Application Support/Blackmagic Design/Fusion/Macros"
 
 # Change zsh options
 
