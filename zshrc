@@ -53,9 +53,15 @@ alias extrato-calo="bash $PGM/Calo/extratos-calo/extratos.sh"
 alias fuscript="/Applications/Blackmagic\ Fusion\ 18/Fusion.app/Contents/MacOS/fuscript"
 
 # Customize prompts
-PROMPT='
+# parse_git_branch() {
+# 	git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+# }
+
+PROMPT="
 %B%F{75}%n%f%b at %F{25}%m%f in %F{35}%1~%f:
-%# '
+%# "
+
+# %F{55}$(parse_git_branch)%f
 
 # Add locations to $PATH
 
