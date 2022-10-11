@@ -58,7 +58,7 @@ alias fuscript="/Applications/Blackmagic\ Fusion\ 18/Fusion.app/Contents/MacOS/f
 # }
 
 PROMPT="
-%B%F{75}%n%f%b at %F{25}%m%f in %F{35}%1~%f:
+%B%F{75}%n%f%b at %B%F{25}%m%f%b in %B%F{35}%1~%f%b:
 %# "
 
 # %F{55}$(parse_git_branch)%f
