@@ -19,7 +19,7 @@ export FU_MACROS="$HOME/Library/Application Support/Blackmagic Design/Fusion/Mac
 # ALIASES =============
 # Super list
 # alias lsf='ls -lAFh'
-alias ls='exa -laF --header'
+alias lsf='exa -laF --header'
 
 alias bbd='brew bundle dump -fv --describe'
 
