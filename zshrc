@@ -18,8 +18,8 @@ export FU_MACROS="/Users/brunoreis/Library/Application Support/Blackmagic Design
 
 # ALIASES =============
 # Super list
-alias lsf='ls -lAFh'
-alias exa='exa -laF --header'
+# alias lsf='ls -lAFh'
+alias ls='exa -laF --header'
 
 # General navigation
 alias pgm="cd '$PGM'"
