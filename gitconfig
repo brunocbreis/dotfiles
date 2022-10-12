@@ -2,3 +2,5 @@
 [user]
 	email = 85531625+brunocbreis@users.noreply.github.com
 	name = Bruno Reis
+[init]
+	defaultBranch = main
