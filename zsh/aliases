@@ -1,0 +1,35 @@
+# ALIASES =============
+# Super list
+# alias lsf='ls -lAFh'
+alias lsf='exa -laF --header'
+
+alias bbd='brew bundle dump -fv --describe'
+
+# General navigation
+alias pgm="cd '$PGM'"
+
+alias gd="cd '$GDRIVE'"
+
+alias gdc="cd '$CALODRIVE'"
+
+alias entregas="cd '$ENTREGAS'"
+
+# Coding
+
+# Python stuff
+alias py="python3"
+
+alias pip="python3 -m pip"
+
+# Financeiro etc
+alias buy="python3 $PGM/Python/Carteira/buy.py"
+
+# Calô commands
+alias new-project="bash $PGM/Calo/bash/mk_proj_dir.sh"
+
+alias mk-proxies="py $PGM/Calo/proxy/make_proxies.py"
+
+alias extrato-calo="bash $PGM/Calo/extratos-calo/extratos.sh"
+
+# Fusion scripting
+alias fuscript="/Applications/Blackmagic\ Fusion\ 18/Fusion.app/Contents/MacOS/fuscript"

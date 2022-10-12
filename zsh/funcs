@@ -1,0 +1,14 @@
+# Handy Funcs
+function mkcd() {
+    mkdir -p "$@" && cd "$_"
+}
+
+# function gt() {
+#     local dest=$(ls | gum choose)
+#     [ ! -z $dest ] && cd $dest
+# }
+
+function gt() {
+    local dest="$(ls . | gum filter)"
+    [ ! -z $dest ] && cd $dest
+}

@@ -1,0 +1,6 @@
+source "$HOME/.dotfiles/zsh/vars"
+source "$HOME/.dotfiles/zsh/aliases"
+source "$HOME/.dotfiles/zsh/funcs"
+source "$HOME/.dotfiles/zsh/prompt"
+
+# Add locations to $PATH

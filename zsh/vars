@@ -1,0 +1,15 @@
+# Set variables
+# Colorize man pages with bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+export GDRIVE="/Volumes/GoogleDrive/My Drive"
+
+export ENTREGAS="$GDRIVE/__entregas"
+
+export CALODRIVE="$GDRIVE/__calô"
+
+export PGM="$HOME/Documents/Programacao"
+
+export DV_MACROS="$HOME/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Macros"
+
+export FU_MACROS="$HOME/Library/Application Support/Blackmagic Design/Fusion/Macros"
