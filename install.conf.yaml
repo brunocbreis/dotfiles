@@ -8,6 +8,7 @@
    ~/.zshrc:
    ~/.zshenv: 
    ~/.gitconfig:
+   ~/.hushlogin:
 
 - create:
    - ~/Work
