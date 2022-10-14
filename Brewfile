@@ -1,9 +1,12 @@
+tap "achannarasappa/tap"
 tap "charmbracelet/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Disk Usage/Free Utility - a better 'df' alternative
+brew "duf"
 # Modern replacement for 'ls'
 brew "exa"
 # Validating, recursive, caching DNS resolver
@@ -44,6 +47,8 @@ brew "tree"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Terminal stock ticker with live updates and position tracking
+brew "achannarasappa/tap/ticker"
 # Free video downloader
 cask "4k-video-downloader"
 # Git client focusing on productivity
