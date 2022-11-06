@@ -4,3 +4,7 @@ source "$HOME/.dotfiles/zsh/funcs"
 source "$HOME/.dotfiles/zsh/prompt"
 
 # Add locations to $PATH
+export PATH="$PATH:$HOME/go/bin"
+
+# Syntax highlighting for the shell
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

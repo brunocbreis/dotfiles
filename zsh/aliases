@@ -12,10 +12,12 @@ alias gd="cd '$GDRIVE'"
 
 alias gdc="cd '$CALODRIVE'"
 
+alias gdcc="cd '$CALODRIVE/clientes'"
+
 alias entregas="cd '$ENTREGAS'"
 
 # Coding
-
+alias cdgo="cd $HOME/go/src/brunocbreis"
 # Python stuff
 alias py="python3"
 
@@ -29,7 +31,9 @@ alias new-project="bash $PGM/Calo/bash/mk_proj_dir.sh"
 
 alias mk-proxies="py $PGM/Calo/proxy/make_proxies.py"
 
-alias extrato-calo="bash $PGM/Calo/extratos-calo/extratos.sh"
+alias extrato-calo="sh $PGM/Calo/extratos-calo/extratos.sh"
+
+alias calo-fetch="$HOME/Documents/Programacao/Calo/fetch/fetch.zsh"
 
 # Fusion scripting
 alias fuscript="/Applications/Blackmagic\ Fusion\ 18/Fusion.app/Contents/MacOS/fuscript"

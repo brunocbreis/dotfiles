@@ -21,12 +21,12 @@ brew "fzf"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Tool for glamorous shell scripts
-brew "gum"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10", link: false
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Configurable static site generator
+brew "hugo"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Framework for layout and rendering of i18n text
@@ -39,6 +39,8 @@ brew "lua"
 brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Monitor data's progress through a pipe
 brew "pv"
 # Display directories as trees (with optional color/HTML output)
@@ -47,12 +49,22 @@ brew "tree"
 brew "vim"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Terminal stock ticker with live updates and position tracking
-brew "achannarasappa/tap/ticker"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# The Charm Tool and Library 🌟
+brew "charmbracelet/tap/charm"
+# A tool for recording terminal GIFs
+brew "charmbracelet/tap/vhs"
 # Free video downloader
 cask "4k-video-downloader"
+# Multi-track audio editor and recorder
+cask "audacity"
+# Desktop client for GitHub repositories
+cask "github"
 # Git client focusing on productivity
 cask "gitkraken"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Open-source code editor
@@ -71,5 +83,4 @@ mas "Screencast", id: 1368905598
 mas "Spark", id: 1176895641
 mas "SystemPal", id: 453164367
 mas "Todoist", id: 585829637
-mas "Twitter", id: 1482454543
 mas "XMenu", id: 419332741
