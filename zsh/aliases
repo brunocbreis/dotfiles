@@ -16,6 +16,8 @@ alias gdcc="cd '$CALODRIVE/clientes'"
 
 alias entregas="cd '$ENTREGAS'"
 
+alias vol="cd /Volumes"
+
 # Coding
 alias cdgo="cd $HOME/go/src/brunocbreis"
 # Python stuff
