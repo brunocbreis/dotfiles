@@ -31,7 +31,7 @@ brew "hugo"
 brew "jq"
 # Framework for layout and rendering of i18n text
 brew "pango"
-# Music engraving program
+# Music engraving system
 brew "lilypond"
 # Powerful, lightweight programming language
 brew "lua"
@@ -65,6 +65,8 @@ cask "github"
 cask "gitkraken"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Password manager
+cask "lastpass"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Open-source code editor
