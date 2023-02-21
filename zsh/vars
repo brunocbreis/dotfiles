@@ -2,7 +2,7 @@
 # Colorize man pages with bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
-export GDRIVE="/Volumes/GoogleDrive/My Drive"
+export GDRIVE="$HOME/Library/CloudStorage/GoogleDrive-bruno@calofilmes.com.br/My Drive"
 
 export ENTREGAS="$GDRIVE/__entregas"
 
