@@ -47,6 +47,8 @@ brew "httpie"
 brew "hugo"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# LastPass command-line interface tool
+brew "lastpass-cli"
 # Music engraving system
 brew "lilypond"
 # Powerful, lightweight programming language
@@ -79,6 +81,8 @@ brew "charmbracelet/tap/charm"
 brew "charmbracelet/tap/vhs"
 # Free video downloader
 cask "4k-video-downloader"
+# Chromium based browser
+cask "arc"
 # Multi-track audio editor and recorder
 cask "audacity"
 # Client for the Dropbox cloud storage service
@@ -101,6 +105,8 @@ cask "raycast"
 cask "sublime-text"
 # Open-source code editor
 cask "visual-studio-code"
+# Desktop client for WhatsApp
+cask "whatsapp"
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836
 mas "Highland 2", id: 1171820258
@@ -116,5 +122,4 @@ mas "Screencast", id: 1368905598
 mas "Spark", id: 1176895641
 mas "SystemPal", id: 453164367
 mas "Todoist", id: 585829637
-mas "Twitter", id: 1482454543
 mas "XMenu", id: 419332741
