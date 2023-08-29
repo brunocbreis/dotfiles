@@ -99,6 +99,8 @@ cask "google-drive"
 cask "iterm2"
 # Password manager
 cask "lastpass"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Text editor for code, markup and prose
