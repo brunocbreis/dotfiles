@@ -67,6 +67,8 @@ brew "python@3.10", link: false
 brew "r"
 # Sparklines for the shell
 brew "spark"
+# Programmatically correct mistyped console commands
+brew "thefuck"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Vi 'workalike' with many additional features
@@ -103,11 +105,13 @@ cask "lastpass"
 cask "notion"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Team communication and collaboration software
+cask "slack"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # Open-source code editor
 cask "visual-studio-code"
-# Desktop client for WhatsApp
+# Native desktop client for WhatsApp
 cask "whatsapp"
 mas "Amphetamine", id: 937984704
 mas "GarageBand", id: 682658836

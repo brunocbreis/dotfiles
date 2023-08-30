@@ -12,3 +12,5 @@ export PATH="$PATH:$HOME/go/bin:/Library/Frameworks/Python.framework/Versions/3.
 # Syntax highlighting for the shell
 # source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
