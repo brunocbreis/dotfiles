@@ -3,6 +3,7 @@ tap "charmbracelet/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "jakehilborn/jakehilborn"
 # TIFF library and utilities
 brew "libtiff"
 # Color management engine supporting ICC profiles
@@ -81,6 +82,10 @@ brew "zsh-syntax-highlighting"
 brew "charmbracelet/tap/charm"
 # A tool for recording terminal GIFs
 brew "charmbracelet/tap/vhs"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
 # Free video downloader
 cask "4k-video-downloader"
 # Chromium based browser
@@ -89,6 +94,8 @@ cask "arc"
 cask "audacity"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Customer communication platform
+cask "front"
 # Desktop client for GitHub repositories
 cask "github"
 # Git client focusing on productivity
