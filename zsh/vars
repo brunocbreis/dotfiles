@@ -13,3 +13,5 @@ export PGM="$HOME/Documents/Programacao"
 export DV_MACROS="$HOME/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Macros"
 
 export FU_MACROS="$HOME/Library/Application Support/Blackmagic Design/Fusion/Macros"
+
+export RESEND_API_KEY="re_cZb9CUsF_G8y6D7kXN71V9RkhxgfG5Yvx"

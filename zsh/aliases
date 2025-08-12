@@ -8,6 +8,8 @@ alias bbd='brew bundle dump -fv --describe'
 # General navigation
 alias pgm="cd '$PGM'"
 
+alias pgmfu="pgm && cd Resolve/Fusion"
+
 alias gd="cd '$GDRIVE'"
 
 alias gdc="cd '$CALODRIVE'"
@@ -43,3 +45,7 @@ alias calo-fetch="$HOME/Documents/Programacao/Calo/fetch/fetch.zsh"
 
 # Fusion scripting
 alias fuscript="/Applications/Blackmagic\ Fusion\ 18/Fusion.app/Contents/MacOS/fuscript"
+
+# File Shortcuts
+alias fusion-manual="open '/Applications/Blackmagic Fusion 18/Fusion 18 Manual.pdf'"
+alias resolve-manual="open '/Applications/DaVinci Resolve/DaVinci Resolve Manual.pdf'"
